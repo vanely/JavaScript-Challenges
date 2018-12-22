@@ -26,3 +26,13 @@ function anagram(word, otherWord) {
     return match;
 }
 console.log(anagram(word1, word3));
+
+
+//weorking
+function anagrams(word, words) {
+
+    return words.filter(function (e) {
+
+        return e.split('').sort().join('') === word.split('').sort().join('');
+    })
+}
