@@ -1,3 +1,5 @@
+//INCOMPLETE
+
 //given n(range of nums) and firstNumber find the number parallel to firstNumber in the cirlce of numbers
 const range1 = 10;
 const range2 = 6;
