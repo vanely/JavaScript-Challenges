@@ -12,38 +12,34 @@
 
 // example format of solution: 'asdf-tyui-ujng-wedg'
 
-const arr1 = [121, 122, 123, 124, 125, 120, 122, 132];
-const arr2 = [111, 112, 113, 114, 115, 113, 114, 110];
-const arr3 = [51, 62, 73, 84, 95, 100, 99, 126];
+const arr1 = [121, 122, 123, 124, 125, 120, 122, 132]; //'yzz-xy}-}yx-xy}'
+
+const arr2 = [111, 112, 113, 114, 115, 113, 114, 110]; //'oprn-nors-sron-nors'
+
+const arr3 = [51, 62, 73, 84, 95, 100, 99, 126]; //'3>c~-3>d~-~d>3-3>d~'
 
 function sortTransform(a) {
 
     let charArr = [];
 
+    //step0
+    charArr[0] = firstAndLastTwo(toAlpha(a)).join("");
+
     //step1
-    charArr[0] = firstAndLastTwo(a).map((index) => {
-        return String.fromCharCode(index);  
-    }).join("");
+    charArr[1] = firstAndLastTwo(toAlpha(sortArr(a))).join("");
 
     //step2
-    charArr[1] = firstAndLastTwo(sortArr(a)).map((index) => {
-        return String.fromCharCode(index);
-    }).join("");
-
-    //step3
-    charArr[2] = firstAndLastTwo(sortArr(a, true)).map((index) => {
-        return String.fromCharCode(index);
-    }).join("");
+    charArr[2] = firstAndLastTwo(toAlpha(sortArr(a, true))).join("");
     
-    charArr[3] = firstAndLastTwo(a).map((index) => {
-        return String.fromCharCode(index);
-    }).sort().join("");
+    //step3
+    charArr[3] = firstAndLastTwo(sortArr(toAlpha(a))).join("");
 
     return charArr.join("-");
 }   
 
 //take out first and last 2 eements of an array
 function firstAndLastTwo(arr) {
+
     return [arr[0], arr[1], arr[arr.length - 2], arr[arr.length - 1]];
 }
 
@@ -57,7 +53,15 @@ function sortArr(arr, reverse=false) {
     return arr.sort();
 }
 
+//convert array values to alphabet
+function toAlpha(a) {
+
+    return a.map((index) => {
+        return String.fromCharCode(index);
+    });
+}
+
 // function collector()
 
-// console.log(sortArr(arr1));
+// console.log(sortArr(toAlpha(arr3)));
 console.log(sortTransform(arr1));
