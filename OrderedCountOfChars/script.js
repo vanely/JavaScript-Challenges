@@ -11,10 +11,13 @@ let orderedCount = function (text) {
   // if(!isNaN(text)) {
     for (let i = 0; i < text.length; i++) {
       countTuples.push([]);
-      if (countTuples[i][0] === text[i]) {
-        countTuples[i][1]++;
-      } else {
-        countTuples[i].push(text[i], 1);
+      for (let j = 0; j < text.length; j++) {
+        if (countTuples[i][0] === text[j]) {
+          countTuples[i][1]++;
+        } else {
+          countTuples[i].push(text[i], 1);
+          continue;
+        }
       }
     }
   // } else {
