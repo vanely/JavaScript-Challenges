@@ -12,6 +12,7 @@ function mergeArrs(arr1, arr2) {
   return newArr;
 }
 
+
 function sortArrs(arr) {
 
   for(let i = 0; i < arr.length; i++) {
