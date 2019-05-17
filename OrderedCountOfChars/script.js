@@ -6,20 +6,32 @@ const str3 = "212"; //  [['2', 2], ['1', 1 ]]]
 
 let orderedCount = function (text) {
   // iterate through text and count char occurances (reduce)
+  const uniqueChars = [];
   const countTuples = [];
 
   // if(!isNaN(text)) {
     for (let i = 0; i < text.length; i++) {
-      countTuples.push([]);
-      for (let j = 0; j < text.length; j++) {
-        if (countTuples[i][0] === text[j]) {
-          countTuples[i][1]++;
-        } else {
-          countTuples[i].push(text[i], 1);
-          continue;
-        }
+      if (!uniqueChars.includes(text[i])) {
+        uniqueChars.push(text[i]);
+      } else {
+        continue;
       }
     }
+
+    for (let i = 0; i < uniqueChars.length; i++) {
+      countTuples.push([]);
+    }
+
+    for (let j = 0; j < text.length; j++) {
+      // if index 0 of i-th array === j-th character in text
+      if (countTuples[i][0] === text[j]) {
+        countTuples[i][1]++;
+      } else {
+        countTuples[i].push(text[i], 1);
+        continue;
+      }
+    }
+
   // } else {
   //   const countObj = text.split('').reduce((acc, char) => {
   //     if (char in acc) {
@@ -45,4 +57,33 @@ let orderedCount = function (text) {
 //   newArr.push([]);
 // }
 // console.log('newArr', newArr);
-orderedCount(str3);
+
+const uniqueChars = [];
+const countTuples = [];
+
+
+str1.split('').forEach((char) => {
+  !uniqueChars.includes(char) ? uniqueChars.push(char) : null;
+});
+
+uniqueChars.forEach((char) => {
+  countTuples.push([char, 0]);
+});
+
+// single letter in array can be turned into array via split methos
+for (let i = 0; i < countTuples.length; i++) {
+  for (let j = 0; j < str1.length; j++) {
+    // if index 0 of i-th array === j-th character in str1
+    if (countTuples[i][0] === str1[j]) {
+      countTuples[i][1]++;
+    } else {
+      continue;
+    }
+  }
+}
+
+
+
+console.log(countTuples);
+
+// orderedCount(str3);
