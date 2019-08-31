@@ -13,7 +13,7 @@ const arrTwo = [4, 5, 8, 7];
 
 function search() {
     const perms13 = [];
-    let permGreater = arr1[arr1.length - 1] + arr2[arr2.length - 1], permLower;
+    let permGreater = arrOne[arrOne.length - 1] + arrTwo[arrTwo.length - 1], permLower;
 
     // sort the arrays and start iterating over them from the ends.
     const arr1 = arrOne.sort((a, b) => a - b);
@@ -34,5 +34,13 @@ function search() {
             }
         }
     }
+
+    if (perms13.length > 0) {
+        return perms13;
+    }
+
+    return `Closest low: ${permLower}. Closest high ${permGreater}.`;
 }
+
+console.log(search());
 
