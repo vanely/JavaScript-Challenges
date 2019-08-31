@@ -13,7 +13,7 @@ const arrTwo = [4, 5, 8, 7];
 
 function search() {
     const perms13 = [];
-    let permGreater = arrOne[arrOne.length - 1] + arrTwo[arrTwo.length - 1], permLower;
+    let permGreater = arrOne[arrOne.length - 1] + arrTwo[arrTwo.length - 1], permLower = arrOne[0] + arrTwo[0];
 
     // sort the arrays and start iterating over them from the ends.
     const arr1 = arrOne.sort((a, b) => a - b);
