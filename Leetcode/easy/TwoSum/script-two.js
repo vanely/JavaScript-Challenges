@@ -9,22 +9,13 @@ const numArrTwo = [3, 4, 2, 8, 15, 20], targetTwo = 6; // [1, 2]
 const numArrThree = [16, 22, 7, 4, 8], targetThree = 12; // [3, 4]
 
 const twoSum = (nums, target) => {
-	const output = [];
-	let selectedNum;
-
-	for (let i = 0; i < nums.length; i++) {
-		selectedNum = nums[i];
-		for (let j = 1; j < nums.length; j++) {
-			if ((selectedNum + nums[j] === target) && (i !== j)) {
-				output.push(i, j);
-				break;
-			}
-		}
-		if (output.length !== 0) {
-			break;
-		}
-	}
-	return output;
+  const comp = {};
+  for (let i = 0; i < nums.length; i++) {
+    if (comp[nums[i]] >= 0) {
+      return [comp[nums[i]], i]
+    }
+    comp[target - nums[i]] = i
+  }
 };
 
 console.log('numArrOne', twoSum(numArrOne, targetOne));
