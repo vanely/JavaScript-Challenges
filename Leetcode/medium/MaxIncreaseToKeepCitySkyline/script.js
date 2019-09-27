@@ -18,14 +18,14 @@
  * the position of each building can be represented by its index.
  * if we are looking at top - bottom or vise versa, then we create an object that logs
  * 
- * {                      top-bottom/ bottom-top
+ * {                      top-bottom/ bottom-top [9, 4, 8, 7]
  *  city1[i][0]: highest
  *  city1[i][1]: highest
  *  city1[i][2]: highest
  *  city1[i][3]: highest
  * }
  * 
- * {                      left-right/ right-left
+ * {                      left-right/ right-left [8, 7, 9, 3]
  *  city1[0][j]: highest
  *  city1[1][j]: highest
  *  city1[2][j]: highest
@@ -34,6 +34,7 @@
  */
 
 var maxIncreaseKeepingSkyline = function (grid) {
+  const city = grid;
   const topBottomSkyline = {};
   const leftRightSkyline = {};
 
@@ -48,7 +49,38 @@ var maxIncreaseKeepingSkyline = function (grid) {
     }
   }
 
+  for (let i = 0; i < grid.length; i++) {
+    for (let j = 0; j < grid[i].length; j++) {
+      while (true) {
+        if ((city[j][i] < topBottomSkyline[i]) && (city[j][i]) < leftRightSkyline[j]) {
+          city[j][i]++;
+        } else {
+          break;
+        }
+        
+        while (true) {
+          if ((city[i][j] < leftRightSkyline[i]) && (city[i][j] < topBottomSkyline[j])) {
+            city[i][j]++;
+          } else {
+            break;
+          }
+        }
+      }
+    }
+  }  
+
+  console.log(city);
   return [topBottomSkyline, leftRightSkyline];
 };
 
 console.log(maxIncreaseKeepingSkyline(city1));
+
+/**
+ * out
+ * [
+ * [8, 4, 8, 7],
+ * [7, 4, 7, 7],
+ * [9, 4, 8, 7],
+ * [3, 3, 3, 3]
+ * ]
+ */
