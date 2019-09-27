@@ -33,7 +33,7 @@
  * }
  */
 
-var maxIncreaseKeepingSkyline = function (grid) {
+const maxIncreaseKeepingSkyline = function (grid) {
   const city = grid;
   const topBottomSkyline = {};
   const leftRightSkyline = {};
