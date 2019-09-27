@@ -37,40 +37,46 @@ const maxIncreaseKeepingSkyline = function (grid) {
   const city = grid;
   const topBottomSkyline = {};
   const leftRightSkyline = {};
+  let sum = 0;
 
-  for (let i = 0; i < grid.length; i++) {
-    for (let j = 0; j < grid[i].length; j++) {
-      if ((topBottomSkyline[i] < grid[j][i]) || (topBottomSkyline[i] === undefined)) {
-        topBottomSkyline[i] = grid[j][i];
-      }
-      if ((leftRightSkyline[i] < grid[i][j]) || (leftRightSkyline[i] === undefined)) {
-        leftRightSkyline[i] = grid[i][j];
+  if ((city.length > 1) && (city[0].length <= 50)) {
+    for (let i = 0; i < city.length; i++) {
+      for (let j = 0; j < city[i].length; j++) {
+        if ((topBottomSkyline[i] < city[j][i]) || (topBottomSkyline[i] === undefined)) {
+          topBottomSkyline[i] = city[j][i];
+        }
+        if ((leftRightSkyline[i] < city[i][j]) || (leftRightSkyline[i] === undefined)) {
+          leftRightSkyline[i] = city[i][j];
+        }
       }
     }
-  }
-
-  for (let i = 0; i < grid.length; i++) {
-    for (let j = 0; j < grid[i].length; j++) {
-      while (true) {
-        if ((city[j][i] < topBottomSkyline[i]) && (city[j][i]) < leftRightSkyline[j]) {
-          city[j][i]++;
-        } else {
-          break;
-        }
-        
+  
+    for (let i = 0; i < city.length; i++) {
+      for (let j = 0; j < city[i].length; j++) {
         while (true) {
-          if ((city[i][j] < leftRightSkyline[i]) && (city[i][j] < topBottomSkyline[j])) {
-            city[i][j]++;
+          if ((city[j][i] < topBottomSkyline[i]) && (city[j][i]) < leftRightSkyline[j]) {
+            city[j][i]++;
+            sum++;
           } else {
             break;
           }
+          
+          while (true) {
+            if ((city[i][j] < leftRightSkyline[i]) && (city[i][j] < topBottomSkyline[j])) {
+              city[i][j]++;
+              sum++;
+            } else {
+              break;
+            }
+          }
         }
       }
-    }
-  }  
+    }  
+  } else {
+    return 0;
+  }
 
-  console.log(city);
-  return [topBottomSkyline, leftRightSkyline];
+  return sum;
 };
 
 console.log(maxIncreaseKeepingSkyline(city1));
