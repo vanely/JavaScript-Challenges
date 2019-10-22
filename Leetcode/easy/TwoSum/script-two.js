@@ -23,10 +23,3 @@ const twoSum = (nums, target) => {
 console.log('numArrOne', twoSum(numArrOne, targetOne));
 console.log('numArrTwo', twoSum(numArrTwo, targetTwo));
 console.log('numArrThree', twoSum(numArrThree, targetThree));
-
-const comp = {
-  7: 0,
-}
-
-[undefined, 0]
-comp[9 - 2] = 0
