@@ -1,4 +1,6 @@
+
 /*
+*https://www.codewars.com/kata/amidakuji/train/javascript
 * Amidakuji is a method of lottery designed to create random pairings between two sets comprised of an equal number of elements.
 *
 * Your task is to write a function amidakuji that returns the final positions of each element. Note that the elements are an ascending sequence of consecutive integers starting with 0 (from left to right).
