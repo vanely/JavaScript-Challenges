@@ -81,31 +81,18 @@ const ladder5 = [ // [3,0,1,2,4,7,6,8,5,9,10]
     '0001000100'
 ];
 
-function amidakuji(ar){
-  const finalPositions = {};
-  const arRangeArr = Array.from(Array(ar.length - 1).keys());
+function amidakuji(ar) {
+  const victim = Array.from(Array(ar[1].length + 1).keys());
 
-  for (let i = 0; i < ar.length; i++) {
-    for (let j = 0; j < ar[i].length; j++) {
-      if (i === 0) {
-        if(ar[j][i] === 1) {
-          finalPositions[arRangeArr[i]] = arRangeArr.indexOf(arRangeArr[i]) + 1;
-          continue;
-        }
-      } else {
-        if ((ar[j][i - 1] === 1) || (ar[j][i] === 1)) {
-          if (ar[j][i - 1] < ar[j][i]) {
-            finalPositions[arRangeArr[i]] = arRangeArr.indexOf(arRangeArr[i]) - 1;
-            continue;
-          } else {
-            finalPositions[arRangeArr[i]] = arRangeArr.indexOf(arRangeArr[i]) + 1;
-            continue;
-          }
-        }
+  ar.forEach((row, i) => {
+    victim.forEach((el, j) => {
+      if (row[j] === '1') {
+        [victim[j], victim[j + 1]] = [victim[j + 1], victim[j]];
       }
-    }
-  }
-  return finalPositions;
+    })
+  })
+
+  return victim;
 }
 
 console.log(amidakuji(ladder0));
