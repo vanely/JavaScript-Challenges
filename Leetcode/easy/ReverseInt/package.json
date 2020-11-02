@@ -1,0 +1,15 @@
+{
+  "name": "ReverseInt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "generateDocs": "jsdoc ./script.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^3.6.6"
+  }
+}
