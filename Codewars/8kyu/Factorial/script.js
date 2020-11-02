@@ -1,9 +1,12 @@
-const num1 = 5;
-const num2 = 10;
-const num3 = 15;
+
 const num4 = 20;
-const num5 = 25;
 const num6 = 30;
+const num1 = 5;
+const num6 = 30;
+const num2 = 10;
+const num6 = 30;
+const num3 = 15;
+const num5 = 25;
 const num7 = 35;
 
 function fact(n) {
