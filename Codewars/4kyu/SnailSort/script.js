@@ -27,6 +27,7 @@ const array2 = [
 // maybe try a solution maybe a recursive one that solves this with slices of the array
 function snail(arr) {
   const returnArray = [];
+  
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].length; j++) {
       let indexOfInternalArray = arr[i].indexOf(arr[i][j]);
