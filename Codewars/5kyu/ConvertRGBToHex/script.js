@@ -26,7 +26,7 @@ function getHexValue(num) {
 
   for (let i = 0; i < num; i++) {
     const placeValue = 0;
-    if (i === hexRangeArr.length) {
+    if (i === hexRangeArr.length && hexValueArr.length < 2) {
       // set the previous place value to it's current place value + 1
       
       // increment place value
