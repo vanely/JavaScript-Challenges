@@ -16,7 +16,7 @@ https://www.mathsisfun.com/hexadecimals.html
  */
 
 function rgb(r, g, b) {
-  return getHexRange(r)+getHexRange(g)+getHexRange(b);
+  return getHexValue(r)+getHexValue(g)+getHexValue(b);
 }
 
 function getHexValue(num) {
