@@ -37,6 +37,3 @@ function getHexValue(color) {
 console.log(`Hex Value 1: ${rgb(24, 66, 96)}`); // 184260
 console.log(`Hex Value 2: ${rgb(93, 234, 171)}`); // 5DEAAB
 console.log(`Hex Value 3: ${rgb(127, 7, 59)}`); // 7F073B
-
-const arr = [3, 345, 563, 35]
-console.log(arr[2])
