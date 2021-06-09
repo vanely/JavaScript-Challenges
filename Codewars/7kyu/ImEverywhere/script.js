@@ -29,20 +29,55 @@ function checkForLowercaseAtBeginning(word) {
 }
 
 function checkIfVowelsAreGreaterThanConsonats(word) {
-  const vowels = ['a', 'e', 'i', 'o', 'u'];
-  const vowelsInWord = vowels.map((vowel) => {
-    return word.split('').filter((letter) => letter === vowel || letter === vowel.toUpperCase());
+  const vowels = {'a':'a', 'e':'e', 'i':'i', 'o':'o', 'u':'u'};
+  let vowelCount = 0;
+  let consonantCount = 0;
+
+  word.split('').forEach((letter) => {
+    if (vowels[letter.toLowerCase()]) {
+      vowelCount++;
+    } else {
+      consonantCount++;
+    }
   })
 
-  const consonantsInWord = vowels.map((vowel) => {
-    return word.split('').filter((letter) => letter !== vowel || letter !== vowel.toUpperCase());
-  })
-
-  return vowelsInWord.length >= consonantsInWord.length ? true : false;
+  return vowelCount >= consonantCount ? true : false;
 }
 
+function convertToI(word) {
+  if (checkForIAtBeginning(word)) {
+    return "Invalid word";
+  }
+  if (checkForLowercaseAtBeginning(word)) {
+    return "Invalid word";
+  }
+  if (checkIfVowelsAreGreaterThanConsonats(word)) {
+    return "Invalid word";
+  }
+
+  return `i${word}`;
+}
+
+// console.log(checkForIAtBeginning(word4));
+// console.log(checkForLowercaseAtBeginning(word4));
+// console.log(checkIfVowelsAreGreaterThanConsonats(word4));
+console.log(convertToI(word1));
+console.log(convertToI(word2));
+console.log(convertToI(word3));
+console.log(convertToI(word4));
+console.log(convertToI(word5));
+console.log(convertToI(word6));
+console.log(convertToI(word7));
+console.log(convertToI(word8));
+
+// regEx approach
+////////////////////////////////////////////////////////////////////////////////////////////////
 function i(word) {
- // do things and stuff
+  const beginsWithLowerCaseOrI = /^[a-zI]/.test(word)
+  const vowelsCount = word.length - word.replace(/[aeiou]/ig, '').length;
+  const consonantsCount = word.replace(/[aeiou]/ig, '').length;
+
+  return beginsWithLowerCaseOrI || vowelsCount >= consonantsCount ? "Invalid word" : `i${word}`;
 }
 
 console.log(i(word1));
@@ -53,3 +88,4 @@ console.log(i(word5));
 console.log(i(word6));
 console.log(i(word7));
 console.log(i(word8));
+//////////////////////////////////////////////////////////////////////////////////////////////
