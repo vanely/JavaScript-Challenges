@@ -20,7 +20,6 @@ function rgb(r, g, b) {
 }
 
 function getHexValue(num) {
-  const hexRangeArr = getHexRange()
   const hexValueArr = [];
 
 
@@ -32,7 +31,7 @@ function getHexValue(num) {
       // increment place value
       placeValue += 1;
     }
-    hexValueArr[placeValue] = hexRangeArr[i];
+    hexValueArr[placeValue] = getHexRange[i];
   }
   return convertHexArrToString(hexValueArr);
 }
@@ -45,7 +44,4 @@ function getHexRange() { return ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9
 
 
 console.log(`Hex Value: ${rgb(24, 66, 96)}`);
-
-const hexarr = [f, ]
-
 // letter value * base 16 to the power of its place value
