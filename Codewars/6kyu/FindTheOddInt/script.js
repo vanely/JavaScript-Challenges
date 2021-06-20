@@ -34,12 +34,12 @@ function findOdd(A) {
   return parseInt(oddOccurance);
 }
 
-// console.log(findOdd(arr1));
-// console.log(findOdd(arr2));
-// console.log(findOdd(arr3));
-// console.log(findOdd(arr4));
-// console.log(findOdd(arr5));
-// console.log(findOdd(arr6));
+console.log(findOdd(arr1));
+console.log(findOdd(arr2));
+console.log(findOdd(arr3));
+console.log(findOdd(arr4));
+console.log(findOdd(arr5));
+console.log(findOdd(arr6));
 
 
 ///////////////////////////////////////////////
