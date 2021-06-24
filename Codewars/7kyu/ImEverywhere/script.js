@@ -1,4 +1,6 @@
 /**
+ * https://www.codewars.com/kata/6097a9f20d32c2000d0bdb98/train/javascript
+ * 
  * Many people know that Apple uses the letter "i" in almost all of its devices to emphasize its personality.
  * And so John, a programmer at Apple, was given the task of making a program that would add that letter to every word. Let's help him do it, too.
  * 
