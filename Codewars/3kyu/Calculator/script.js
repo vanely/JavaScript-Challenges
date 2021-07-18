@@ -17,10 +17,20 @@ function Calculator() {
   this.operation = "";
 }
 
+Calculator.prototype.checkIfIsNumber = function(input) {
+  if (isNaN(Number(input))) {
+    throw `input ${input} is NOT a number ${Number(input)}`;
+  }
+  return input
+}
+
 Calculator.prototype.evaluate = function(operation) {
   this.operation = operation;
 
-
+  // iterate through chars in string.
+  // find out whether the char is a num or symbol.
+  // figure out the order of operators to follow PEMDAS
+  // perform operations in correct order
 }
 
 const calc = new Calculator()
@@ -30,9 +40,16 @@ const calc = new Calculator()
 // console.log(calc.evaluate(op3));
 // console.log(calc.evaluate(op4));
 
-function checkIfIsNumber(input) {
-  if (isNaN(Number(input))) {
-    return 'not a number';
+class EvalCalculator {
+  constructor() {
+    this.operation = ''
+  }
+
+  evaluate(operation) {
+    this.operation = operation
+    return eval(operation)
   }
 }
-console.log(Number('/'))
+
+const EvilC = new EvalCalculator()
+console.log(EvilC.evaluate(op1))
