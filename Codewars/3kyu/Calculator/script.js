@@ -19,12 +19,20 @@ function Calculator() {
 
 Calculator.prototype.evaluate = function(operation) {
   this.operation = operation;
-  return this.operation;
+
+
 }
 
 const calc = new Calculator()
 
-console.log(calc.evaluate(op1));
-console.log(calc.evaluate(op2));
-console.log(calc.evaluate(op3));
-console.log(calc.evaluate(op4));
+// console.log(calc.evaluate(op1));
+// console.log(calc.evaluate(op2));
+// console.log(calc.evaluate(op3));
+// console.log(calc.evaluate(op4));
+
+function checkIfIsNumber(input) {
+  if (isNaN(Number(input))) {
+    return 'not a number';
+  }
+}
+console.log(Number('/'))
