@@ -28,7 +28,7 @@ function twoSum(numbers, target) {
     if (numToIndex.has(possibleMatch)) {
       return [numToIndex.get(possibleMatch), i];
     }
-    numMap.set(numbers[i], i);
+    numToIndex.set(numbers[i], i);
   }
   return [];
 }
@@ -37,7 +37,7 @@ function twoSum(numbers, target) {
   const numToIndex = new Map();
 
   for (let i = 0; i < numbers.length; i++) {
-    numToIndex.set(nums[i], i);
+    numToIndex.set(numbers[i], i);
   }
 
   for (let i = 0; i < numbers.length; i++) {
@@ -45,7 +45,7 @@ function twoSum(numbers, target) {
     if (numToIndex.has(possibleMatch) && numToIndex.get(possibleMatch) !== i) {
       return [numToIndex.get(possibleMatch), i];
     }
-    numMap.set(numbers[i], i);
+    numToIndex.set(numbers[i], i);
   }
   return [];
 }
