@@ -19,7 +19,6 @@ function subtractVals(num1, num2) {
   }
 }
 
-
 function twoSum(numbers, target) {
   const numToIndex = new Map();
 
