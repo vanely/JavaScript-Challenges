@@ -92,13 +92,16 @@ function logAndBenchmark(example) {
   console.log('\n=====================FUNCTION START=====================');
   console.time('contact');
   contact(example);
-  // contact2(example);
   console.timeEnd('contact');
+  console.log('----------------------------------------------------------')
+  console.time('contact2');
+  contact2(example);
+  console.timeEnd('contact2');
   console.log('======================FUNCTION END======================');
 }
 
-// logAndBenchmark(hallway1);
-logAndBenchmark(hallway2);
+logAndBenchmark(hallway1);
+// logAndBenchmark(hallway2);
 // logAndBenchmark(hallway3);
 // logAndBenchmark(hallway4);
 // logAndBenchmark(hallway5);
