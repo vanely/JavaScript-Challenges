@@ -74,10 +74,25 @@ function contact(hallway) {
   return Math.min(...closestSteps);
 } 
 
+function contact2(hallway) {
+  const walkers = hallway.match(/>-*</g);
+  const walkerSteps = walkers.map((walker) => {
+    if (walker.length > 2) {
+      const steps = walker.slice(1, walker.length - 1);
+      return Math.ceil(steps.length / 2);
+    } else {
+      return 1;
+    }
+  });
+  console.log(Math.min(...walkerSteps));
+  return Math.min(...walkerSteps);
+}
+
 function logAndBenchmark(example) {
   console.log('\n=====================FUNCTION START=====================');
   console.time('contact');
   contact(example);
+  // contact2(example);
   console.timeEnd('contact');
   console.log('======================FUNCTION END======================');
 }
