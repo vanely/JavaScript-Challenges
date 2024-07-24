@@ -43,7 +43,8 @@ function contact(hallway) {
   for (let i = 0; i < hallwayArr.length; i++) {
     if (hallwayArr[i] === ">") {
       console.log('resetting and adding right walker');
-      imminentCollision = imminentCollision.splice(0, imminentCollision.length)
+      // REVIEW: may need to replace array reset with imminentCollision = []
+      imminentCollision = [];
       imminentCollision.push(hallwayArr[i]);
     } else if ((imminentCollision[0] === ">") && (hallwayArr[i] === "-" || hallwayArr[i] === "<")) {
       console.log('adding steps or left walker');
@@ -51,30 +52,43 @@ function contact(hallway) {
       if (hallwayArr[i] === "<") {
         walkers.push(imminentCollision);
         console.log(`added left walker, adding immenentCollision to walkers: ${imminentCollision}`);
-        imminentCollision = imminentCollision.splice(0, imminentCollision.length);
+        // REVIEW: may need to replace array reset with imminentCollision = []
+        imminentCollision = [];
       }
     }
   }
+  if (!walkers.length) {
+    return -1;
+  }
+  
   console.log(`found walkers: ${walkers}`);
   const closestSteps = walkers.map((walkerPair) => {
     if (walkerPair.length > 2) {
       const steps = walkerPair.slice(0, walkerPair.length - 1);
-      return Math.ceil(steps / 2);
+      return Math.ceil(steps.length / 2);
     } else {
       return 1;
     }
   })
-
-  return Math.min(closestSteps);
+  console.log(`closest steps array: ${closestSteps}, closest steps needed for encounter: ${Math.min(...closestSteps)}`);
+  return Math.min(...closestSteps);
 } 
 
-console.log(`\n=====================FUNCTION START=====================\nhallway1: ${contact(hallway1)} \n======================FUNCTION END======================`);
-console.log(`\n=====================FUNCTION START=====================\nhallway2: ${contact(hallway2)} \n======================FUNCTION END======================`);
-console.log(`\n=====================FUNCTION START=====================\nhallway3: ${contact(hallway3)} \n======================FUNCTION END======================`);
-console.log(`\n=====================FUNCTION START=====================\nhallway4: ${contact(hallway4)} \n======================FUNCTION END======================`);
-console.log(`\n=====================FUNCTION START=====================\nhallway5: ${contact(hallway5)} \n======================FUNCTION END======================`);
-console.log(`\n=====================FUNCTION START=====================\nhallway6: ${contact(hallway6)} \n======================FUNCTION END======================`);
-console.log(`\n=====================FUNCTION START=====================\nhallway7: ${contact(hallway7)} \n======================FUNCTION END======================`);
+function logAndBenchmark(example) {
+  console.log('\n=====================FUNCTION START=====================');
+  console.time('contact');
+  contact(example);
+  console.timeEnd('contact');
+  console.log('======================FUNCTION END======================');
+}
+
+// logAndBenchmark(hallway1);
+logAndBenchmark(hallway2);
+// logAndBenchmark(hallway3);
+// logAndBenchmark(hallway4);
+// logAndBenchmark(hallway5);
+// logAndBenchmark(hallway6);
+// logAndBenchmark(hallway7);
 
 //------------------------------------------------------------------------------------------------------
 function generateArr(range) {
