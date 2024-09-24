@@ -65,3 +65,6 @@ function vanillaGridMap(fn, a) {
 
 console.log("Grid Map: ", gridMap((x) => x**2, twoDimArr))
 console.log("Vanilla Grid Map: ", vanillaGridMap((x) => x**2, twoDimArr))
+
+
+
