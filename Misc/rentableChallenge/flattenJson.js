@@ -2,10 +2,10 @@ const fs = require('fs').promises;
 
 async function readJSONFile(filePath) {
   try {
-    // Read the file
+    // read the file
     const fileContent = await fs.readFile(filePath, 'utf8');
 
-    // Parse the JSON content
+    // parse JSON
     const jsonObject = JSON.parse(fileContent);
 
     return jsonObject;
@@ -59,12 +59,110 @@ function flattenJSON(obj) {
   return processElement(obj);
 }
 
+//-------------------------------------------------
+
+function flattenJSON2(obj) {
+  function processElement(element, nameCounters = {}) {
+    if (typeof element !== 'object' || element === null) {
+      return element;
+    }
+
+    if (Array.isArray(element)) {
+      return element.map(el => processElement(el, nameCounters));
+    }
+
+    if (element.type === 'element') {
+      const result = {};
+      if (element.elements) {
+        if (element.elements.length === 1 && element.elements[0].type === 'text') {
+          return element.elements[0].text;
+        } else {
+          element.elements.forEach(child => {
+            if (child.name) {
+              let key = child.name;
+              if (key in nameCounters) {
+                nameCounters[key]++;
+                key = `${key}${nameCounters[key]}`;
+              } else {
+                nameCounters[key] = 0;
+              }
+              result[key] = processElement(child, { ...nameCounters });
+            } else if (child.type === 'element') {
+              Object.assign(result, processElement(child, nameCounters));
+            }
+          });
+        }
+      }
+      return Object.keys(result).length ? result : null;
+    }
+
+    const result = {};
+    for (const key in element) {
+      result[key] = processElement(element[key], nameCounters);
+    }
+    return result;
+  }
+
+  return processElement(obj);
+}
+//--------------------------------------------------------
+
+
+function flattenJSON3(obj) {
+  function processElement(element, nameCounters = {}) {
+    if (typeof element !== 'object' || element === null) {
+      return element;
+    }
+
+    if (Array.isArray(element)) {
+      return element.map(el => processElement(el, { ...nameCounters }));
+    }
+
+    if (element.type === 'element') {
+      const result = {};
+      if (element.elements) {
+        if (element.elements.length === 1 && element.elements[0].type === 'text') {
+          return element.elements[0].text;
+        } else {
+          element.elements.forEach(child => {
+            if (child.name) {
+              let key = child.name;
+              if (key in nameCounters) {
+                nameCounters[key]++;
+                key = `${key}${nameCounters[key]}`;
+              } else {
+                nameCounters[key] = 0;
+              }
+              result[key] = processElement(child, { ...nameCounters });
+            } else if (child.type === 'element') {
+              Object.assign(result, processElement(child, nameCounters));
+            }
+          });
+        }
+      } else if (element.attributes) {
+        return element.attributes;
+      }
+      return Object.keys(result).length ? result : null;
+    }
+
+    const result = {};
+    for (const key in element) {
+      result[key] = processElement(element[key], nameCounters);
+    }
+    return result;
+  }
+
+  return processElement(obj);
+}
+
+
+//---------------------------------------------------------
 // import json, and flatten json
 async function main() {
   try {
-    const jsonObject = await readJSONFile('tenantDataCopy.json');
+    const jsonObject = await readJSONFile('tenantData.json');
     // flatten json
-    const flattenedJSON = flattenJSON(jsonObject);
+    const flattenedJSON = flattenJSON2(jsonObject);
     console.log(`flattened JSON:\n${JSON.stringify(flattenedJSON, null, 2)}`);
     // console.log(`imported json:\n${JSON.stringify(jsonObject, null, 2)}`);
   } catch (error) {
