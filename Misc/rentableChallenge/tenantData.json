@@ -1,0 +1,2714 @@
+{
+  "declaration": {
+    "attributes": {
+      "version": "1.0",
+      "encoding": "utf-8"
+    }
+  },
+  "elements": [
+    {
+      "type": "element",
+      "name": "soap:Envelope",
+      "attributes": {
+        "xmlns:soap": "http://www.w3.org/2003/05/soap-envelope",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xmlns:xsd": "http://www.w3.org/2001/XMLSchema"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "soap:Body",
+          "elements": [
+            {
+              "type": "element",
+              "name": "GetResidentDataResponse",
+              "attributes": {
+                "xmlns": "http://tempuri.org/YSI.Interfaces.WebServices/ItfResidentData"
+              },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "GetResidentDataResult",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "MITS-ResidentData",
+                      "attributes": {
+                        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+                        "xmlns": ""
+                      },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "Summary",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "GenerationTimeStamp",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "2023-12-20T20:55:41"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "name": "SourceOrganization",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "Yardi Systems, Inc."
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "name": "TotalLeaseFiles",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "1"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "name": "TotalTenants",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "1"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "LeaseFiles",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "LeaseFile",
+                              "elements": [
+                                {
+                                  "type": "element",
+                                  "name": "Identification",
+                                  "attributes": {
+                                    "IDValue": "t0000001",
+                                    "IDType": "Past"
+                                  }
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "Property",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "Identification",
+                                      "attributes": {
+                                        "IDValue": "rentabl1"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "MarketingName",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "Rentable Security Deposits Test Property #1"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "LegalName",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "Rentable Security Deposits Test Property #1"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Address",
+                                      "attributes": {
+                                        "AddressType": "property"
+                                      },
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "AddressLine1",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "100 West Channel Road"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "City",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Santa Monica"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "State",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "CA"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "PostalCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "90402"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Country",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "United States"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "Unit",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "Identification",
+                                      "attributes": {
+                                        "IDValue": "218"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitType",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "ut002385"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitTypeDescription",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "2 Bedroom 2 Bath"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitTypeRent",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "1300"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitTypeSquareFeet",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "1600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitBedrooms",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "2"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitBathrooms",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "2.000000"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "SquareFootType",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "internal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitRent",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "1300.00"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitSquareFeet",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "1600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitEconomicStatus",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "Residential"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitOccupancyStatus",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "vacant"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "UnitLeasedStatus",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "available"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Address",
+                                      "attributes": {
+                                        "AddressType": "mailing"
+                                      },
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Unit"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "AddressLine1",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "100 West Channel Road 218"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "City",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Santa Monica"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "State",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "CA"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "PostalCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "90402"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Country",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "United States"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "MoveInDate",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "2023-12-05"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "MoveOutDate",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "2023-12-07"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "NoticeDate",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "2023-12-05"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "LeaseBegin",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "2023-12-05"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "LeaseEnd",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "2024-02-04"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "MonthlyRentAmount",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "1300"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "DueDay",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "1"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "Tenants",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "Identification",
+                                      "attributes": {
+                                        "IDValue": "t0000001",
+                                        "IDType": "Past"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Identification",
+                                      "attributes": {
+                                        "IDValue": "1300.00",
+                                        "IDType": "Deposit Paid",
+                                        "OrganizationName": "Deposit"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Identification",
+                                      "attributes": {
+                                        "IDValue": "2450.00",
+                                        "IDType": "Deposit Charged",
+                                        "OrganizationName": "Deposit"
+                                      }
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "PersonDetails",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "Identification",
+                                          "attributes": {
+                                            "IDValue": "False",
+                                            "IDType": "Occupant opted out of receiving Correspondence e-mails"
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Identification",
+                                          "attributes": {
+                                            "IDValue": "True",
+                                            "IDType": "Occupant opted into receiving SMS text messages"
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Identification",
+                                          "attributes": {
+                                            "IDValue": "2023-12-07",
+                                            "IDType": "LeaseSign"
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Name",
+                                          "elements": [
+                                            {
+                                              "type": "element",
+                                              "name": "FirstName",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Constantine"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "element",
+                                              "name": "LastName",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Disbursed"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Address",
+                                          "attributes": {
+                                            "AddressType": "current"
+                                          },
+                                          "elements": [
+                                            {
+                                              "type": "element",
+                                              "name": "Description",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Resident"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "element",
+                                              "name": "AddressLine1",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "100 West Channel Road 218"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "element",
+                                              "name": "City",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Santa Monica"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "element",
+                                              "name": "State",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "CA"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "element",
+                                              "name": "PostalCode",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "90402"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "element",
+                                              "name": "Country",
+                                              "elements": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "United States"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Email",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "coding_challenge@rentable.com"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "MoveInDate",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "2023-12-05"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "MoveOutDate",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "2023-12-07"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "DriversLicenseState",
+                                      "elements": [
+                                        {
+                                          "type": "text",
+                                          "text": "CA"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "CustomRecords",
+                                      "attributes": {
+                                        "scope": "Resident"
+                                      },
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields0",
+                                            "Name": "ResLicense#",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields1",
+                                            "Name": "Car",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields2",
+                                            "Name": "Bank",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields3",
+                                            "Name": "Account#",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields4",
+                                            "Name": "Children",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields5",
+                                            "Name": "Ages",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields6",
+                                            "Name": "Pets",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields7",
+                                            "Name": "Reference",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields8",
+                                            "Name": "Guarantor",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields9",
+                                            "Name": "Custom Field - Slip",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields10",
+                                            "Name": "Security Dep Alt",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields11",
+                                            "Name": "SmartAptAccess",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields12",
+                                            "Name": "Other 4",
+                                            "Value": ""
+                                          }
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Record",
+                                          "attributes": {
+                                            "Field": "sFields13",
+                                            "Name": "Other 5",
+                                            "Value": ""
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "Ledger",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600044792"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-19"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "335.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Debit Card On-Line Payment ; Web -\n                                                Online Leasing"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700101435"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-19"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "appfee"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "85.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Application Fees"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Application Fee (Joseph Wachira)"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700101436"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-19"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "holding"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "250.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Lease Reservation Fee"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Holding Fee (Joseph Wachira)"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106168"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-29"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "appfee"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "-85.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Application Fees"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "waived per special"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106169"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-29"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "holding"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "-250.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Lease Reservation Fee"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "waived per special"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106229"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-30"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Rent-A"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "162.26"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Rent"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Rent for 2 days"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106230"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-30"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "SecDep-A"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "1500"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Security Deposits - Current"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Security Deposit"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106231"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-30"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "amenfee"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "810.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Amenity Fee and Rental Income"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Community Amenity Fee"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106232"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-30"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "buildlia"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "0.97"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Renter's Insurance"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Building Liability Fee for 2 days"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600046366"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-31"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "0.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": ":Prog Gen credit application"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600046367"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-31"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "0.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": ":Prog Gen credit application"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600046368"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2023-12-31"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "0.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": ":Prog Gen credit application"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106233"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-01"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Rent-A"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2515.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Rent"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Next Month's Rent"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700106234"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-01"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "buildlia"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "15.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Renter's Insurance"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Next Month's Building Liability Fee"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700111706"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-03"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "garage"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "70.16"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Garage Income"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Garage Income 29 days"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700111904"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-06"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "late"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "251.50"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Late Fees"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Late Fees, 10% of $2515.000000"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600048662"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-08"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "1500"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "manual deposit 86434987-4"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600048663"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-08"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "3168.00"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "manual deposit 86434988-5"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "600049287"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Payment"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-22"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode"
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "70.39"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Operating Cash #1"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Debit Card On-Line Payment ; Web - Resident Services"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "name": "Transaction",
+                                      "elements": [
+                                        {
+                                          "type": "element",
+                                          "name": "TransID",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "700112967"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransType",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Charge"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "TransDate",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "2024-01-22"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeCode",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "late"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "ChargeAmount",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "20"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isOpen",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "false"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "isPosted",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "true"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Description",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Late Fees"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "element",
+                                          "name": "Notes",
+                                          "elements": [
+                                            {
+                                              "type": "text",
+                                              "text": "Late Fees"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "CustomRecords",
+                                  "elements": [
+                                    {
+                                      "type": "element",
+                                      "name": "Record",
+                                      "attributes": {
+                                        "Field": "Custom",
+                                        "Name": "Lease Description",
+                                        "Value": "None"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

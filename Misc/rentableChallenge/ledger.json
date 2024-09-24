@@ -1,0 +1,1884 @@
+{
+  "type": "element",
+  "name": "Ledger",
+  "elements": [
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600044792"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-19"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "335.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Debit Card On-Line Payment ; Web -\n                                                Online Leasing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700101435"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-19"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "appfee"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "85.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Application Fees"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Application Fee (Joseph Wachira)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700101436"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-19"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "holding"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "250.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Lease Reservation Fee"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Holding Fee (Joseph Wachira)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106168"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-29"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "appfee"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "-85.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Application Fees"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "waived per special"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106169"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-29"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "holding"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "-250.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Lease Reservation Fee"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "waived per special"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106229"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-30"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Rent-A"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "162.26"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Rent"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Rent for 2 days"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106230"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-30"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "SecDep-A"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "1500"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Security Deposits - Current"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Security Deposit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106231"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-30"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "amenfee"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "810.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Amenity Fee and Rental Income"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Community Amenity Fee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106232"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-30"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "buildlia"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "0.97"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Renter's Insurance"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Building Liability Fee for 2 days"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600046366"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-31"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "0.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": ":Prog Gen credit application"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600046367"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-31"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "0.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": ":Prog Gen credit application"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600046368"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2023-12-31"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "0.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": ":Prog Gen credit application"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106233"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-01"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Rent-A"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2515.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Rent"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Next Month's Rent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700106234"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-01"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "buildlia"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "15.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Renter's Insurance"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Next Month's Building Liability Fee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700111706"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-03"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "garage"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "70.16"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Garage Income"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Garage Income 29 days"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700111904"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-06"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "late"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "251.50"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Late Fees"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Late Fees, 10% of $2515.000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600048662"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-08"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "1500"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "manual deposit 86434987-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600048663"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-08"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "3168.00"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "manual deposit 86434988-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "600049287"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Payment"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-22"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode"
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "70.39"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Operating Cash #1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Debit Card On-Line Payment ; Web - Resident Services"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "Transaction",
+      "elements": [
+        {
+          "type": "element",
+          "name": "TransID",
+          "elements": [
+            {
+              "type": "text",
+              "text": "700112967"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransType",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Charge"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "TransDate",
+          "elements": [
+            {
+              "type": "text",
+              "text": "2024-01-22"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeCode",
+          "elements": [
+            {
+              "type": "text",
+              "text": "late"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "ChargeAmount",
+          "elements": [
+            {
+              "type": "text",
+              "text": "20"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isOpen",
+          "elements": [
+            {
+              "type": "text",
+              "text": "false"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "isPosted",
+          "elements": [
+            {
+              "type": "text",
+              "text": "true"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Description",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Late Fees"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Notes",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Late Fees"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "rentablechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-xml-to-json": "^1.2.3",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.6.2"
+  }
+}
