@@ -36,6 +36,14 @@ function consecutive(array) {
   return numsNeededForConsecutive;
 }
 
+function consecutiveTwo(array) {
+  if (array.length <= 1) {
+    return 0;
+  }
+  const sortedArr = array.sort((a, b) => a - b);
+  return (sortedArr[sortedArr.length - 1] - sortedArr[0]) - sortedArr.length + 1;
+}
+
 tests.forEach((test) => {
-  console.log(`is: ${consecutive(test[0])}, should be: ${test[1]}`);
+  console.log(`is: ${consecutiveTwo(test[0])}, should be: ${test[1]}`);
 })
