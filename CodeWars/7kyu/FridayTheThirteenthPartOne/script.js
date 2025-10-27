@@ -19,6 +19,14 @@
 //
 // Happy Friday the 13th!
 
+let tests = [
+  [[["Mike", 7],["Alysa", 3]], "Alysa"],
+  [[["Chad", 2], ["Tommy", 9]], "Chad"],
+  [[["Hailey", 9], ["Vanely", 4]], "Vanely"],
+]
+
 function killcount(counselors, jason){
-  return //insert code here
+  return counselors.map((counselor) => counselor[1] < jason ? counselor[0] : null).filter((counselor)=> counselor !== null);
 }
+
+tests.forEach((test) => console.log(`is: ${killcount(test[0], 7)}, should be: ${test[1]}`));
