@@ -19,7 +19,7 @@
 // 2- maxTriSum ({2,1,8,0,6,4,8,6,2,4}) ==> return (18)
 // Explanation:
 // As the triplet that maximize the sum {8, 6, 4} in order , their sum is (18) ,
-//
+//0
 // Note : duplications are not included when summing , (i.e) the numbers added only once .
 //
 // 3- maxTriSum ({-7,12,-7,29,-5,0,-7,0,0,29}) ==> return (41)
@@ -40,7 +40,12 @@ const tests = [
   [[-5,-1,-9,0,2],1],
 ]
 
-function maxTriSum(numbers){
+function maxTriSum(numbers) {
+  const [x,y,z,...rest] = Array.from(new Set(numbers)).sort((a,b)=>b-a);
+  return x+y+z;
+}
+
+function maxTriSumTwo(numbers){
   const dedupedNums = Array.from(new Set(numbers));
   let greatestTripSum;
   for (let i = 0; i < dedupedNums.length - 2; i++) {
