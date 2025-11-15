@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/586e6d4cb98de09e3800014f/train/javascript
 // Introduction
 // A vending machine is a machine that dispenses items such as snacks and beverages to customers automatically, after the customer inserts currency or credit into the machine. The first modern vending machines were developed in England in the early 19th century and dispensed postcards. (Source Wikipedia)
 // Vending Machine
